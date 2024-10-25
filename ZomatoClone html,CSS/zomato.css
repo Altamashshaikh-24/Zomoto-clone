@@ -1,0 +1,763 @@
+* {
+    padding: 0;
+    margin: 0;
+    margin-left: 0;
+    
+
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 45px;
+    background-color: #FFF5E1;
+    font-family: system-ui;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 550px;
+    left: 0px;
+    top: 4px;
+    right: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#zomatolog {
+    margin-left: 5px;
+    margin-top: 4px;
+    padding: 5px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    background-color: ;
+}
+
+.fa-search {
+    color: black;
+}
+
+
+
+
+
+#but {
+    margin-left: 10px;
+    background-color: #FFF5E1;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 49px;
+    height: 28px;
+    border-radius: 10px;
+}
+
+#navbar i {
+    color: rgba(255, 0, 0, 0.831);
+    margin-right: 6px;
+    margin-left: 6px;
+    text-decoration: none;
+
+}
+
+b {
+    color: black;
+    text-decoration: none;
+}
+
+
+#mainn {
+    border-radius: 10px;
+    background-image: url(o.png);
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    margin-top: 86px;
+}
+
+h1 {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+#serchbar {
+    margin-left: 500px;
+    margin-top: 20px;
+
+}
+
+#sersec {
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+#offer {
+    margin-left: 36%;
+    font-size: 40px;
+    color: #FF6969;
+}
+
+#therelist {
+
+    margin-bottom: 0%;
+    border-radius: 20px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+
+#mainoffsec {
+    border-radius: 10px;
+    height: 360px;
+}
+
+#box {
+    width: 270px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    /* background-color: rgba(255, 0, 0, 0.675); */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+#box:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#imgg {
+    /* border: 2px solid black; */
+    padding-top: 0%;
+    border-radius: 20px 20px;
+    /* height: 280px; */
+    width: 280px;
+    /* margin-left: 1px; */
+}
+
+#imgg:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#order {
+    /* font-family: cursive; */
+    font-size: 20px;
+}
+
+.fa-solid {
+
+    opacity: 0.9;
+    font-size: medium;
+    margin-left: 25px;
+}
+
+#yourmind {
+    display: flex;
+    margin-top: 20px;
+
+    height: 200px;
+    border-radius: 30px;
+
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  */
+
+}
+
+#foodsider {
+    font-size: 40px;
+    font-family: Georgia, serif;
+    color: #FF6969;
+}
+
+#saladimg {
+    margin: 10px;
+    /* border: 2px solid black;  */
+    width: 280px;
+    height: 250px;
+    border-radius: 30px;
+
+}
+
+#bacbutcolor {
+    background-color: white;
+    border: none;
+}
+
+
+
+
+#sidbar {
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    border: 2px solid black;
+    height: 1120px;
+    width: 330px;
+    background-color: #D3D3D3;
+    justify-content: center;
+}
+
+#searchhotel {
+    border-radius: 20px;
+
+
+
+}
+
+#serchbor {
+
+    width: 240px;
+    margin-top: 5px;
+    height: 26px;
+}
+
+#buttt {
+    color: black;
+    font-size: 22px;
+    /* width: 20px; */
+    margin-top: 20px;
+    margin-left: 6px;
+}
+
+#hotelndb {
+    font-family: system-ui;
+    font-size: larger;
+    margin-top: 9px;
+    margin-left: 70px;
+}
+
+#mappng {
+    margin-top: 11px;
+    width: 190px;
+    height: 100px;
+    margin-left: 18px;
+    border-radius: 20px;
+}
+
+#maping {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(map.png);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 90%;
+    height: 120px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+#sidebarspace {
+
+    border-radius: 10px;
+    height: 900px;
+
+}
+
+#mapserh {
+    text-align: center;
+    border-radius: 10px;
+    color: red;
+    margin-top: 32px;
+    width: 190px;
+    height: 19px;
+    margin-left: 62px;
+}
+
+#sideborder {
+    border: 2px solid black;
+    width: 900px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+#select {
+    font-family: system-ui;
+    /* margin-right: 20px;  */
+    margin-top: 10px;
+}
+
+#borderside {
+
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    height: 140px;
+    background-color: #232323ca;
+    color: white;
+
+}
+
+
+#suggested {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: system-ui;
+}
+
+#vehicle1 {
+    width: 10px;
+    margin-left: 10px;
+}
+
+
+#sugg {
+    /* margin-top: 10px; */
+    font-family: sans-serif;
+    margin-left: 19px;
+    color: black;
+}
+
+#checkset {
+    display: flex;
+    margin-left: 26px;
+    margin-top: 14px;
+
+
+}
+
+
+#checkfont {
+
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+#checkbox {
+    width: 17px;
+    margin-left: 10px;
+    border-radius: 60%;
+}
+
+/* main section bar */
+
+#main {
+
+    margin-top: 23px;
+    border: 2px solid black;
+    width: 910px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgba(220, 220, 220, 0.356);
+}
+
+#Amenities {
+    display: flex;
+
+    margin-left: 26px;
+    font-size: larger;
+    margin-top: 20px;
+    color: black;
+}
+
+#insideimg {
+    border-radius: 10px;
+    margin-top: 17px;
+    width: 180px;
+    height: 270px;
+    margin-left: 10px;
+    padding: 6px;
+    border: 2px solid black;
+    background-color: #23232354;
+
+}
+
+#borderprice {
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    margin-left: 25px;
+    height: 46px;
+    /* background-color: #D3D3D3;  */
+    background-color: white;
+}
+
+
+#price {
+    margin-left: 23px;
+    margin-top: 3px;
+    font-size: 20px;
+    color: black;
+}
+
+#pernight {
+    margin-left: 28px;
+    font-size: medium;
+    color: black;
+}
+
+
+#exporebut {
+    border-radius: 10px;
+    height: 20px;
+    width: 120px;
+    margin-top: 10px;
+    /* background-color: #D3D3D3;  */
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 28px;
+    margin-bottom: 0px;
+}
+
+/* main sec cafe */
+
+#sectioncafe {
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    position: relative;
+    margin-right: 13px;
+    background-color: #16423C;
+    /* border-radius: 20px; */
+    width: 1280px;
+    height: 430px;
+}
+
+#imgsidetext {
+    position: absolute;
+    top: 0;
+    border-radius: 70px;
+
+
+}
+
+#sectioncafe img {
+    border-radius: 30px;
+
+
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#sectioncafe h1 {
+    margin-top: 248px;
+    font-family: SoDo Sans;
+    margin-left: 190px;
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 1px 39px rgba(0, 0, 0, 1);
+    letter-spacing: 6px;
+}
+
+#strcup {
+    margin-left: 4px;
+
+}
+
+#starfood {
+    /* display: flex; */
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 410px;
+    height: 210px;
+    border-radius: 10px;
+    background-color: #D6EFD8;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    ;
+
+}
+
+#coffec {
+
+    border-radius: 10px 10px;
+    width: 150px;
+    height: 150px;
+    margin-left: 8px;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    ;
+}
+
+#coffename {
+
+    margin-left: 11px;
+    margin-top: 26px;
+    font-size: larger;
+    color: black;
+}
+
+small {
+    font-family: system-ui;
+    color: rgba(0, 0, 0, 0.679);
+}
+
+#buy {
+    margin-top: 50px;
+    margin-right: 80px;
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    font-family: 'Courier New', Courier, ;
+    border-radius: 9px;
+    border: 2px;
+    background-color: #16423C;
+    color: white;
+
+}
+
+#add {
+    background-color: #16423C;
+    color: white;
+    border: 2px;
+    border-radius: 9px;
+    font-family: 'Courier New', Courier, ;
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+}
+
+#coffesideoffer {
+    /* border: 2px solid white; */
+    width: 310px;
+    margin-left: 10px;
+    /* border-radius: 6px; */
+    height: 500px;
+    /* display: flex; */
+}
+
+#coffesideoffer img {
+
+    border-radius: 19px;
+    padding: 6px;
+    background-color: #D6EFD8;
+}
+
+
+/* food section here  */
+
+
+
+
+
+#stardish {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    padding: 9px;
+    height: 560px;
+    width: 340px;
+    background-color: #D6EFD8;
+}
+
+#stardish img {
+    width: 310px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    ;
+}
+
+
+
+#dishmainsec {
+
+    /* border-radius: 10px; */
+    margin-top: 10px;
+    /* margin-left: 8px; */
+    /* border: 2px solid black;  */
+    width: 1070px;
+    /*   */
+}
+
+#dishminbox {
+    background-color: #D6EFD8;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 180px;
+    height: 250px;
+    /* display: flex; */
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    ;
+
+}
+
+#dishminbox img {
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    ;
+}
+
+#dishminbox b {
+    margin-top: 15px;
+    margin-left: 16px;
+    font-family: system-ui;
+}
+
+#dishminbox button {
+    border-radius: 10px;
+    font-family: serif;
+    border: 1px solid #16423C;
+    margin-top: 10px;
+    margin-left: 39px;
+    width: 90px;
+    font-size: 17px;
+    background-color: #16423C;
+    color: white;
+}
+
+
+
+#dishminbox p {
+
+    text-align: center;
+    color: white;
+    background-color: #16423C;
+    margin-top: 17px;
+    height: 27px;
+    border-radius: 0px 0px 9px 9px;
+
+}
+
+/* second last footer */
+
+#orderapp {
+    display: flex;
+    /* border: 2px solid black; */
+    margin-left: 190px;
+    /* margin-top: 35px; */
+}
+
+#zomatoinfo {
+    /* border: 2px solid black; */
+    width: 700px;
+}
+
+#zomatoinfo h2 {
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: 34px;
+    margin-left: 46px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#zomatoinfo p {
+    font-family: sans-serif;
+    margin-top: 34px;
+    margin-left: 46px;
+    color: white;
+    font-size: larger;
+}
+
+#zomatoinfo input {
+
+    text-align: start;
+    margin-top: 39px;
+    font-size: medium;
+    border: red;
+    border-radius: 10px;
+    margin-left: 47px;
+    height: 34px;
+    width: 327px;
+    padding-left: 10px;
+}
+
+#zomatoinfo button {
+    font-family: sans-serif;
+    border: red;
+    border-radius: 5px;
+    height: 34px;
+    width: 110px;
+    color: #ffffff;
+    background-color: #EF4F5F;
+
+}
+
+
+
+/* footer section  here */
+
+#footer {
+    
+    height: 330px;
+    background-color: #c7253d39;
+}
+
+#footernavr{
+    display: flex;
+    
+    /* border: 2px solid black; */
+    height: 70px;
+    width: 1270px;
+}
+
+#footernavr img{
+    margin-top: 18px;
+    width: 100px;
+    height: 30px;
+    margin-left: 36px;
+}
+
+#boxindeng{
+    margin-left: 840px;
+    display: flex;
+    /* border: 1px solid black; */
+    width: 290px;
+    justify-content: space-between;
+}
+
+#boxindeng div{
+    border-radius: 10px;
+    padding-top: 9px;
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 20px;
+}
+
+#boxinside{
+    display: flex;
+    padding: 10px;
+    
+}
+
+/* footer service section */
+
+#footerinfo{
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+ 
+#footerinfo b{
+    font-family: sans-serif;
+    /* color: rgba(240, 248, 255, 0.784); */
+}
+
+
+#footerinfo p{
+    line-height: 31px;
+}
+
+#socialink{
+    margin-top: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#socialink p{
+    font-size: larger;
+}
